@@ -1,0 +1,58 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos gerais para o corpo do documento */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para o cabeçalho */
+  h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Estilos para o formulário */
+  #formTarefa {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #tarefaInput {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+  }
+  
+  #formTarefa button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos para a lista de tarefas */
+  #listaTarefas {
+    list-style: none;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #listaTarefas li {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
